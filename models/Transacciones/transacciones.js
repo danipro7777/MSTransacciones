@@ -40,3 +40,4 @@ module.exports = (sequelize, DataTypes) => {
     });
     return transacciones;
 };
+//Prueba de git
