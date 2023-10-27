@@ -15,19 +15,19 @@ module.exports = (sequelize, DataTypes) => {
             allowNull: false
         },
         Cantidad: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.DECIMAL,
             allowNull: false
         },
         PrecioGalon: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.DECIMAL,
             allowNull: false
         },
         TipoPago: {
             type: DataTypes.STRING,
             allowNull: false
         },
-        Descuento: {
-            type: DataTypes.INTEGER,
+        DescuentoAplicado: {
+            type: DataTypes.DECIMAL,
             allowNull: false
         },
         Empleado: {
@@ -40,4 +40,3 @@ module.exports = (sequelize, DataTypes) => {
     });
     return transacciones;
 };
-//Prueba de git
